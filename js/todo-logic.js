@@ -1,4 +1,3 @@
-
 // Add a new todo
 export function addTodo(todos, text) {
   const newTodo = {

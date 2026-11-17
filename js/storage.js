@@ -1,4 +1,3 @@
-
 const STORAGE_KEY = "todos";
 
 // Save todos to localStorage
