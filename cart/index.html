@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Cart</title>
+</head>
+<body>
+
+    <h1>My Shopping Cart</h1>
+
+    <!-- Product List -->
+    <section>
+        <h2>Available Products</h2>
+        <div id="products"></div>
+    </section>
+
+    <hr>
+
+    <!-- Shopping Cart -->
+    <section>
+        <h2>My Cart</h2>
+
+        <p>
+            Items in cart:
+            <span id="cart-count">0</span>
+        </p>
+
+        <div id="cart-items"></div>
+
+        <h3>
+            Total: KSh <span id="cart-total">0</span>
+        </h3>
+
+        <button id="clear-cart">Clear Cart</button>
+
+        <button id="undo-cart">Undo Last Change</button>
+    </section>
+
+    <script src="cart.js"></script>
+
+</body>
+</html>

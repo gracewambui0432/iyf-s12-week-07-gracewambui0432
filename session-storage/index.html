@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Session Storage</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Contact Us</h1>
+        <p>Your form information is automatically saved during this browser session.</p>
+
+        <form id="contact-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="status"></p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Management Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <main class="container">
+        <h1>My Task Manager</h1>
+
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter a task">
+            <button type="submit">Add Task</button>
+        </form>
+
+        <div class="settings">
+            <label for="filter">Filter tasks:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="active">Active</option>
+                <option value="completed">Completed</option>
+            </select>
+
+            <label for="theme">Theme:</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+
+        <p id="task-count">0 tasks</p>
+        <ul id="todo-list"></ul>
+    </main>
+</body>
+</html>
