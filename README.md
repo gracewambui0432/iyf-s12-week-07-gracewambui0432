@@ -119,7 +119,7 @@ I learned how to save data in the browser, manage application state, organize Ja
 I found it challenging to organize my code into modules, handle invalid stored data, and configure testing tools. I worked through these challenges by practising, debugging, and testing my code.
 
 ## Collaboration
-- **Reviewer:** [gakuruclaire39-cmd]
+- **Reviewer:** [@gakuruclaire39-cmd](https://github.com/gakuruclaire39-cmd)
 - **PR I opened:** [https://github.com/gracewambui0432/iyf-s12-week-07-gracewambui0432/pull/1]
 - **PR I reviewed:** [https://github.com/gracewambui0432/iyf-s12-week-07-gracewambui0432/pull/1]
 - **Review I wrote:** [https://github.com/gracewambui0432/iyf-s12-week-07-gracewambui0432/pull/1/changes#r4600421235]
