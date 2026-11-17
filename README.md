@@ -126,8 +126,7 @@ I found it challenging to organize my code into modules, handle invalid stored d
 
 
 ## Live Demo
-Add your deployed project link if available.
-(Live Website)[https://gracewambui0432.github.io/iyf-s12-week-07-gracewambui0432/]
+[Live Website](https://gracewambui0432.github.io/iyf-s12-week-07-gracewambui0432/)
 ---
 
 ## Conclusion
