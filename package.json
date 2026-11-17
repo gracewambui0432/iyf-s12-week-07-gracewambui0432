@@ -1,0 +1,27 @@
+{
+  "name": "iyf-s12-week-07-gracewambui0432",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracewambui0432/iyf-s12-week-07-gracewambui0432.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gracewambui0432/iyf-s12-week-07-gracewambui0432/issues"
+  },
+  "homepage": "https://github.com/gracewambui0432/iyf-s12-week-07-gracewambui0432#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
