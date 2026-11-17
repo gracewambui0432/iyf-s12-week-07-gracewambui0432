@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 - Recent Searches</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .search-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #search-history {
+            list-style: none;
+            padding: 0;
+        }
+
+        #search-history li {
+            padding: 12px;
+            background-color: #eeeeee;
+            margin: 5px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #search-history li:hover {
+            background-color: #d1d5db;
+        }
+
+        #search-result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Recent Searches</h1>
+    <p>Search for something and your last five searches will be saved.</p>
+
+    <div class="search-container">
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Enter your search..."
+        >
+
+        <button id="search-button">Search</button>
+    </div>
+
+    <h2>Search History</h2>
+    <ul id="search-history"></ul>
+
+    <p id="search-result"></p>
+
+    <script type="module" src="search.js"></script>
+</body>
+</html>

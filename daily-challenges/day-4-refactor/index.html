@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 - Refactor Challenge</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .todo-container {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        input {
+            padding: 10px;
+            width: 65%;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Refactored To-Do List</h1>
+
+    <div class="todo-container">
+
+        <input
+            type="text"
+            id="todo-input"
+            placeholder="Enter a task..."
+        >
+
+        <button id="add-button">Add Todo</button>
+
+        <ul id="list"></ul>
+
+        <p id="status"></p>
+
+    </div>
+
+    <script type="module" src="refactor.js"></script>
+</body>
+</html>

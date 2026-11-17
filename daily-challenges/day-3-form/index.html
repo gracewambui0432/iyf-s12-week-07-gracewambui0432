@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 - Form Auto-Save</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            min-height: 120px;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #save-status {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+    <p>Your information is automatically saved every five seconds.</p>
+
+    <form id="contact-form">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required
+        >
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Your email"
+            required
+        >
+
+        <textarea
+            name="message"
+            placeholder="Your message"
+            required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <p id="save-status">Your information has not been saved yet.</p>
+
+    <script type="module" src="form.js"></script>
+</body>
+</html>
