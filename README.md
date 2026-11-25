@@ -127,7 +127,8 @@ I found it challenging to organize my code into modules, handle invalid stored d
 
 ## Live Demo
 [Live Website](https://gracewambui0432.github.io/iyf-s12-week-07-gracewambui0432/)
----
+
+[My Shopping Cart](https://gracewambui0432.github.io/iyf-s12-week-07-gracewambui0432/cart/index.html)
 
 ## Conclusion
 
